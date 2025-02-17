@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Story Generator</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <audio id="bgMusic" loop>
+        <source src="Ed Sheeran  Perfect.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+    </audio>
+    
+       <button id="musicToggle">🎵</button>
+    <p id="songName">Now Playing: 🎵 Perfect - Ed Sheeran</p>
+    
+          <div class="container">
+        <h1>💖 Story Generator 💖</h1>
+        <form id="loveForm">
+            <label for="name1">Your Name:</label>
+            <input type="text" id="name1" placeholder="Enter your name" required>
+
+            <label for="name2">Partner's Name:</label>
+            <input type="text" id="name2" placeholder="Enter partner's name" required>
+
+            <label for="memories">Describe a Special Moment Together:</label>
+            <textarea id="memories" placeholder="Write your memory..." required></textarea>
+
+            <button type="submit">💌 Generate Love Story</button>
+        </form>
+
+        <div id="storyOutput" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>Designed • Developed by <strong>Kalidas & Joshna</strong></p>
+</footer>
+
+</html>
