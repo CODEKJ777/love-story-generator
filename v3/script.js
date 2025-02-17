@@ -14,7 +14,7 @@ document.getElementById("loveForm").addEventListener("submit", async function(ev
     Make it poetic, heartfelt, and magical.`;
 
     try {
-        let response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key= API ID`, {
+        let response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key= (YOUR API ID HERE) `, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
